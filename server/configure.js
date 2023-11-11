@@ -5,7 +5,7 @@ const Connect = async() =>
 {
     try 
     {
-        await mongoose.connect("mongodb+srv://KaranBhanushali:Kb19092003%40@cluster0.fpqcnoe.mongodb.net/agriWebDatabase" ,
+        await mongoose.connect("your uri" ,
         {
             useNewUrlParser:true ,
             useUnifiedTopology:true 
