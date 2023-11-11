@@ -1,0 +1,714 @@
+.App {
+   text-align: center;
+}
+
+.App-logo {
+   height: 40vmin;
+   pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+   .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+   }
+}
+
+.App-header {
+   background-color: #282c34;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-size: calc(10px + 2vmin);
+   color: white;
+}
+
+.App-link {
+   color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+   from {
+      transform: rotate(0deg);
+   }
+
+   to {
+      transform: rotate(360deg);
+   }
+}
+
+.headerMain {
+   font-size: 3vw;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-style: oblique;
+   color: yellow;
+}
+
+.navItems {
+   display: flex;
+   gap: 7vw;
+   font-size: 2vw;
+   list-style-type: none;
+   margin-left: 40px;
+   justify-content: center;
+   align-items: center;
+}
+
+.itemList:hover {
+   transform: scale(1.5);
+   transform: scale(1.5);
+   color: white;
+   border-radius: 1rem;
+}
+
+.linking {
+   color: yellow;
+   text-decoration: none;
+}
+
+.home {
+   display: flex;
+   background-image: url('./images/mainpage.jpg');
+   z-index: -1;
+   opacity: 0.8;
+   height: 100vh;
+   justify-content: center;
+   align-items: center;
+   width: 100vw;
+   margin-bottom: 100px;
+}
+
+.homepageHeader {
+   display: flex;
+   background-color: black;
+   color: yellow;
+   height: 4vw;
+   width: 100%;
+   margin: auto;
+
+}
+
+.textmid {
+   font-size: 5rem;
+   font-weight: bold;
+   color: white;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   list-style-type: symbols(diamond);
+}
+
+.textcenter {
+   color: white;
+   font-size: 2.0rem;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   list-style-type: symbols(diamond);
+}
+
+.homepageMain {
+   margin-bottom: 50px;
+   justify-content: center;
+   align-items: center;
+}
+
+.buttonclass {
+   margin-top: 10px;
+   font-size: 30px;
+   font-weight: bold;
+   background-color: black;
+   color: whitesmoke;
+   border-radius: 30px;
+   padding: 10px;
+}
+
+.buttonclass:hover {
+   cursor: pointer;
+}
+
+.Farmerpage {
+   background-color: whitesmoke;
+   display: flex;
+   margin-top: 50px;
+   border: 2px solid black;
+   width: 80vw;
+   margin: auto;
+   padding: 50px;
+
+}
+
+.hi {
+   color: white;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.gap {
+   margin-bottom: 50px;
+}
+
+.mainHeading {
+   margin-left: 100px;
+   font-size: 3vw;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-align: left;
+}
+
+.mainList {
+   margin-left: 100px;
+   font-size: 2vw;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   list-style-type: symbols(diamond);
+   text-align: left;
+}
+
+
+.foodimg1{
+   width: 25vw;
+   height:15vw ;
+   border-radius:0.85rem ;
+   border:solid;
+   border-color:darkgray ;
+}
+
+.farmerMain {
+   display: flex;
+   background-image: url('./images/farmerhome.jpeg');
+   z-index: -1;
+   opacity: 0.8;
+   height: 100vh;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   margin-bottom: 100px;
+}
+
+.farmertext {
+   margin-bottom: 50px;
+   justify-content: center;
+   align-items: center;
+}
+
+#onion {
+   border-radius: 50% / 100% 100% 50% 50% ; 
+   padding-top:2vw ;
+   width:12vw ;
+   height:5vw ;
+}
+
+#potato {
+   width: 60%;
+   padding: 10px;
+   border-radius: 90px;
+}
+
+#cauliflower {
+   border-radius: 50px;
+   padding-top: 15px;
+   width: 50%;
+}
+
+.card-body {
+   padding-bottom: 15px;
+}
+
+#cartbutton {
+   background-color: blue;
+   font-weight: bold;
+   color: white;
+   border-radius: 0.90rem ;
+   font-size:1.5vw ;
+   width:8vw ;
+   border: none;
+}
+
+#cartbutton:hover 
+{
+   color:yellow;
+}
+
+#cartbutton1 {
+   background-color: blue;
+   font-weight: bold;
+   color: white;
+   border-radius: 20px;
+   padding: 5px;
+   border: none;
+   margin-top: 2rem;
+   width: 12rem;
+}
+
+#cartbutton:hover {
+   cursor: pointer;
+}
+
+.Register {
+   margin-left: 25vw;
+   margin-right: 25vw;
+   border: solid;
+   border-color: lightgrey;
+   margin-top: 2vw;
+   height: 30vw;
+   background-color: blueviolet;
+}
+
+.Login {
+   border: solid;
+   border-color: lightgrey;
+   margin-top: 2vw;
+   height: 30vw;
+   background-color: blueviolet;
+   margin-top:-0.5vw ;
+}
+
+.RegisterFarmer {
+   background-color: rgba(64,64,64,1);
+   color:white ;
+   height:80vw ;
+}
+
+.finalRegHeading {
+   font-size:4vw ;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-style:oblique ;
+}
+
+.NewProduct {
+   border: solid;
+   border-color: lightgrey;
+   background-color: rgba(64,64,64,1) ;
+   color:white ;
+   height:85vw ;
+}
+
+.FarmerComplaint {
+   margin-left: 25vw;
+   margin-right: 25vw;
+   border: solid;
+   border-color: lightgrey;
+   margin-top: 2vw;
+   height: 40vw;
+   background-color: green;
+}
+
+
+.pageHeading {
+   background-color: darkblue;
+   color: white;
+   font-size: 3vw;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.productHeading {
+   color: white;
+   font-size: 3.5vw;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.registerInput {
+   font-size: 2.5vw;
+   width: 50vw;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background-color: white;
+   border-radius:0.65rem ;
+}
+
+.registerInputImage {
+   font-size: 2.5vw;
+   width: 50vw;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background-color: white;
+   margin-top:-1vw ;
+   border-radius:0.65rem ;
+}
+
+.registerInputLabel {
+   font-size: 1.5vw;
+   width: 20vw;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background-color: white;
+   margin-left: 14.5vw;
+}
+
+.pageButton {
+   font-size: 2vw;
+   width: 13vw;
+   background-color: red;
+   color: white;
+   border-radius: 0.65rem;
+   border-color: red;
+   margin-bottom: 7vw;
+}
+
+.pageButton:hover {
+   transform: scale(1.5);
+   transform: scale(1.5);
+}
+
+.pageLinking {
+   text-decoration: none;
+   font-size: 2vw;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: white;
+}
+
+.pageEnding {
+   margin-top: -6vw;
+}
+
+.midPara {
+   font-size: 2.5vw;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: white;
+   margin-left:-29vw ;
+}
+
+.titlep {
+   align-items: center;
+   font-size: 4vw;
+   padding-bottom: 2vw;
+   color:white ;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.first {
+   display: flex;
+   background-color: green;
+   height: 11vh;
+   justify-content: center;
+   align-items: center;
+}
+
+.welc {
+   color: yellow;
+   font-weight: bold;
+   font-size: 2.5vw;
+   margin-top:-0.70vw; 
+   padding-top:0.40vw ;
+}
+
+.second {
+   background-color: yellowgreen;
+   height: 5vw;
+   justify-content: center;
+}
+
+.cardgrid {
+   display: flex;
+   justify-content: center;
+}
+
+.card {
+   background-color: black;
+   margin: 40px;
+   width: 18rem;
+   border: none;
+   border-radius: 3rem;
+   border:solid ;
+   border-color: darkgray;
+   color:yellow ;
+}
+
+.card:hover 
+{
+   transform:scale(1.2) ;
+   transform:scale(1.2) ;
+}
+
+.navabar1 {
+   display: flex;
+   background-color: rgb(81, 243, 81);
+   height: 11vh;
+   justify-content: center;
+   align-items: center;
+}
+
+.navbar2 {
+   justify-content: center;
+}
+
+.navh1 {
+   font-weight: bold;
+   font-size: 3rem;
+}
+
+.mainBuyer {
+   display: flex;
+   text-align: left;
+   width: 80vw;
+   margin: auto;
+   height: 50vh;
+   background-color: black;
+   color:yellow ;
+}
+
+
+
+.contentbuyer {
+   width: 80vw;
+   height:30vw ;
+   border-radius:0.90rem ;
+}
+
+#foodimg1 {
+   margin-top: 2vw ;
+   width: 25vw;
+   height:15vw ;
+}
+
+.imageer {
+   padding: 45px;
+   justify-content: center;
+   align-items: center;
+}
+
+.contactpage {
+   background-color: rgb(214, 250, 214);
+   height: 100vh;
+}
+
+.mainBuyer {
+   background-color: black;
+}
+
+#foodimager {
+   width: 13rem;
+}
+.Buyers{
+   background-color: rgba(64,64,64,1);
+   width: 100%;
+   text-align: center;
+   color:white ;
+   height:180vw ;
+}
+.bit{
+   margin: 1.3rem;
+   font-size:1.5rem;
+   border-radius: 1.3rem;
+   padding: 0.5rem;
+   background-color: blue;
+   color: white;
+}
+.bit:hover{
+   cursor: pointer;
+}
+.buyercontent{
+   text-align: left;
+}
+.buyercontent1{
+   text-align: left;
+   margin-right: 17rem;
+}
+.image{
+   margin-left:14rem;
+}
+#goodfood{
+   width: 14rem;
+}
+.btn32q{
+   margin: 1.3rem;
+   font-size:1.5rem;
+   border-radius: 1.3rem;
+   padding: 0.5rem;
+   background-color: blue;
+   color: white;
+}
+.button12{
+   text-align: center;
+}
+.image img{
+   width: 25rem;
+   border-radius: 300px;
+}
+
+.contactus 
+{
+   font-size:1.5vw ;
+   width:10vw ;
+   border-radius:0.60rem ;
+   background-color:red ;
+   color:white ;
+}
+
+.contactus:hover 
+{
+   transform:scale(1.2) ;
+   transform:scale(1.2) ;
+}
+
+.Products 
+{
+   background-color:rgba(64,64,64,1);
+}
+
+
+
+
+
+.productConfImg
+{
+   width:90vw ;
+   height:90vw ;
+   margin-top:-5vw ;
+   opacity:0.75 ;
+}
+
+.finalHeading 
+{
+   color:white ;
+   font-size:4vw ;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+   font-style: oblique;
+   padding:1vw ;
+}
+
+.ProductFinal 
+{
+
+   height:95vw ;
+   background-color: rgba(64,64,64,1); 
+   position:center ;
+   color:white ;
+}
+
+.BuyerRegister 
+{
+   height:85vw ;
+   background-color: rgba(64, 64, 64,1); 
+   position:center ;
+}
+
+.BuyerLogin 
+{
+   height: 25vw;
+   background-color: rgb(50,205,50);
+   margin-top:-2vw ;
+   margin-left:15vw ;
+   margin-right:15vw ;
+
+}
+
+.finalPageImages 
+{
+   width:75vw ;
+   height:30vw ; 
+   opacity:5 ;
+}
+
+.buyerPageImages 
+{
+   width:75vw ;
+   height:30vw ; 
+   opacity:5 ;
+}
+
+.finalPageFormLabel 
+{
+   font-size:2.5vw ;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   width:50vw ;
+   border-radius:0.80rem ;
+
+}
+
+.finalPageButton 
+{
+   font-size:2vw ;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+   width:10vw ;
+   border-radius:0.70rem ;
+   background-color: red;
+   color:white ;  
+}
+
+.finalPageButton:hover 
+{
+   transform:scale(1.2) ;
+   transform:scale(1.2) ;
+}
+
+.finalLinking 
+{
+   text-decoration: none;
+   color:white ;
+}
+
+.finalLinking:hover 
+{
+   color:red ;
+}
+
+.buyerLoginHeading 
+{
+   color:white ;
+   font-size:3vw ;
+   font-style:oblique ;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Complaint 
+{
+   background-color: rgba(64,64,64,1);
+   height:80vw ;
+   color:white ;
+}
+
+.complaintHeading 
+{
+   font-size:3vw ;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-style: oblique;
+   color:white ;
+}
+
+.complaintPara 
+{
+   text-align: left;
+   font-size:1.5vw ;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-style: oblique;
+   color:white ;
+}
+
+.complaintLabel 
+{
+   font-size:1.5vw ;
+   width:15vw ;
+   background-color: rgba(64,64,64,1);
+   border-radius: 0.70rem;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-style: oblique;
+   color: white;
+}
+
+.mainContent {
+   background-color: rgba(64,64,64,1);
+   color:white ;
+   height:150vw ;
+   width:100% ;
+}
+
+.image 
+{
+   width:25vw ;
+   height:25vw ;
+   border-radius:50% ;
+}
+
+.image2{
+   width:25vw ;
+   height:25vw ;
+   border-radius:50% ;
+   margin-left:15vw ;
+}
+
+.Farmerpage {
+   background-color: black;
+   color:yellow ;
+}
+
+
+
+
+
+
+
+
